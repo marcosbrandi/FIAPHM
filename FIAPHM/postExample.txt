@@ -7,22 +7,6 @@
   "senha": "senha123"
 }
 
-{
-  "nome": "Dr. João Santos",
-  "cpf": "123.456.789-01",
-  "crm": "CRM/SP 123457",
-  "email": "joao.santos@clinica.com",
-  "senha": "senha123"
-}
-
-{
-	"nome": "Dra. Maria Souza",
-	"crm": "CRM/RJ 654321",
-	"email": "maria.souza@clinica.com",
-	"cpf": "987.654.321-00",
-	"senha": "senha123"
-}
-
 --Paciente
 {
   "nome": "Maria Souza",
@@ -37,11 +21,11 @@
   "medicoId": 1
 }
 
--- consulta
+login
 {
-  "dataHora": "2023-10-25T14:00:00",
-  "pacienteId": 1,
-  "medicoId": 1
+  "email": "joao.silva@clinica.com",
+  "password": "senha123"
 }
+
 
 

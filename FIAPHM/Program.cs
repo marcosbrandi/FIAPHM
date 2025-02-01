@@ -5,12 +5,16 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using System.Security.Claims;
 using FIAPHM.Models;
+using FIAPHM.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Configuração da string de conexão
 builder.Services.AddDbContext<FIAPDBContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+// Registra o AuthService
+builder.Services.AddScoped<AuthService>();
 
 // Configuração do JWT
 builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("Jwt"));
