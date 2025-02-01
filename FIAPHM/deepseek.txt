@@ -1,0 +1,16 @@
+Quero construir uma API em C# e .Net 8 com um banco de dados SQL Server, configurado para Windows Authentication.
+Quero adicionar uma funcionalidade simples de autenticação, o usuário vai informar email e senha e a api vai ler essa informacao de uma tabela 
+ja existente no de banco de dados
+Quero adicionar uma funcionalidade de cadastro de Medico com ID, Nome, CPF, CRM, email, senha
+Quero adicionar uma funcionalidade de cadastro de Paciente com ID, Nome, CPF, email, senha
+Quero adicionar uma funcionalidade de cadastro de Agenda pelo Médico, onde ele informa as Datas e Horários ele tem disponibilidade para consultas
+Quero adicionar uma funcionalidade de agendamento de Consulta, onde o Paciente busca um médico numa lista e visualiza os horários disponíveis para consulta
+O médico só poderá acessar o endpoint de Cadastro de Agenda se estiver autenticado.
+O paciente só poderá acessar o endpoint de Agendamento de Consulta se estiver autenticado.
+Quero testar cada endpoint pelo swagger. 
+
+Pode adicionar um endpoint para cadatro de medico e outro endpoint para cadastro de paciente?
+
+
+
+

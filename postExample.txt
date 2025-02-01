@@ -1,0 +1,24 @@
+--Medico
+{
+  "nome": "Dr. João Silva",
+  "cpf": "123.456.789-00",
+  "crm": "CRM/SP 123456",
+  "email": "joao.silva@clinica.com",
+  "senha": "senha123"
+}
+
+--Paciente
+{
+  "nome": "Maria Souza",
+  "cpf": "987.654.321-00",
+  "email": "maria.souza@clinica.com",
+  "senha": "senha123"
+}
+
+-- agenda medico
+{
+  "dataHora": "2023-10-25T14:00:00",
+  "medicoId": 1
+}
+
+
