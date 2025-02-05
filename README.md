@@ -28,10 +28,10 @@ O paciente terá acesso a agenda de médicos disponíveis, e às suas respectiva
 ### **3.1 Banco de Dados**
 - **Sql Server**: Banco relacional.
 
-### **3.4 Autenticação**
+### **3.2 Autenticação**
 - **Keycloak/Auth0**: Soluções seguras e prontas para uso, seguindo padrões como OAuth2 e OpenID Connect.
 
-### **3.5 Infraestrutura e Orquestração**
+### **3.4 Infraestrutura e Orquestração**
 - **AWS/Azure**:
 - **Docker + Kubernetes**:
 
