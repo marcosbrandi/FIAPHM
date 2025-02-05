@@ -9,7 +9,8 @@ Permitir o cadastro de novos médicos e pacientes.
 O paciente terá acesso a agenda de médicos disponíveis, e às suas respectivas agendas. Podendo agendar uma consulta a qualquer momento.
 
 ## **2. Arquitetura da Solução**
-![image](https://github.com/user-attachments/assets/6308ff2d-e4b6-45c7-97e2-7580b632fb6c)
+![image](https://github.com/user-attachments/assets/59772eb7-f631-4b7e-a6cc-034716ab15af)
+
 ### **2.1 Componentes Principais**
 - **Backend**: API REST ASP.NET Core.
 - **Banco de Dados**: SQL Server.
