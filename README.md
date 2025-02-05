@@ -1,7 +1,12 @@
 **Desenho da Solução MVP**
 
 ## **1. Introdução**
-Este documento apresenta o desenho da solução MVP para o sistema de Telemedicina da Health&Med. O objetivo é garantir um sistema robusto, escalável e seguro, atendendo aos requisitos funcionais especificados.
+Este documento apresenta o desenho da solução MVP para o sistema de Telemedicina da Health&Med.
+
+A aplicação tem como principal objetivo possibilitar o agendamento de consultas médicas, com as seguintes funcionalidades:
+
+Permitir o cadastro de novos médicos e pacientes.
+O paciente terá acesso a agenda de médicos disponíveis, e às suas respectivas agendas. Podendo agendar uma consulta a qualquer momento.
 
 ## **2. Arquitetura da Solução**
 ![image](https://github.com/user-attachments/assets/28fba7a8-3ec1-493b-9468-e563e1007f2e)
