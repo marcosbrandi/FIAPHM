@@ -26,7 +26,7 @@ O paciente terá acesso a agenda de médicos disponíveis, e às suas respectiva
 - **.NET Core**
 
 ### **3.1 Banco de Dados**
-- **Sql Server**: Banco relacional.
+- **Sql Server**
 
 ### **3.2 Autenticação**
 - **Keycloak/Auth0**: Soluções seguras e prontas para uso, seguindo padrões como OAuth2 e OpenID Connect.
