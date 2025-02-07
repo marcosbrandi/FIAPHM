@@ -35,11 +35,11 @@ Este repositório contém o MVP (Minimum Viable Product) desenvolvido pelos alun
 - **Backend**: API Rest
 - **Banco de Dados**: SQL Server
 - **Autenticação**: Token de Acesso
-- **Infraestrutura**: Cloud (ex: AWS, Azure, Google Cloud)
-- **CI/CD**: Pipeline de deploy automatizado
+- **Infraestrutura**: Docker
+- **CI/CD**: Pipeline de deploy
 
 ## Como Executar o Projeto
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/healthmed.git
+   git clone https://github.com/marcosbrandi/FIAPHM/tree/master
