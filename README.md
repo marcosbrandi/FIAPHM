@@ -1,38 +1,45 @@
-**Desenho da Solução MVP**
+# Health&Med - Sistema de Telemedicina
 
-## **1. Introdução**
-Este documento apresenta o desenho da solução MVP para o sistema de Telemedicina da Health&Med.
+## Descrição do Projeto
 
-A aplicação tem como principal objetivo possibilitar o agendamento de consultas médicas, com as seguintes funcionalidades:
+A Health&Med é uma startup inovadora no setor de saúde, desenvolvendo um sistema proprietário para revolucionar a Telemedicina no país. O sistema visa proporcionar um serviço de maior qualidade, segurança dos dados dos pacientes e redução de custos, permitindo o gerenciamento eficiente de agendamentos e consultas online.
 
-Permitir o cadastro de novos médicos e pacientes.
-O paciente terá acesso a agenda de médicos disponíveis, e às suas respectivas agendas. Podendo agendar uma consulta a qualquer momento.
+Este repositório contém o MVP (Minimum Viable Product) desenvolvido pelos alunos do curso 4NETT, que inclui a análise do projeto, arquitetura do software e desenvolvimento do sistema.
 
-## **2. Arquitetura da Solução**
-![image](https://github.com/user-attachments/assets/59772eb7-f631-4b7e-a6cc-034716ab15af)
+## Requisitos Funcionais
 
-### **2.1 Componentes Principais**
-- **Backend**: API REST ASP.NET Core.
-- **Banco de Dados**: SQL Server.
-- **Autenticação**: JWT Bearer Token.
-- **Infraestrutura**: ?????.
+1. **Autenticação do Usuário (Médico)**
+   - Login usando número de CRM e senha.
 
-### **2.2 Fluxo de Dados**
-1. Paciente/Médico solicita autenticação.
-2. Quando médico, cadastra agenda, quando Paciente, agenda consulta.
-3. Backend interage com o banco de dados Sql Server.
+2. **Cadastro/Edição de Horários Disponíveis (Médico)**
+   - Cadastro e edição de horários para agendamento de consultas.
 
-### **3 Backend**
-- **.NET Core**
+3. **Aceite ou Recusa de Consultas Médicas (Médico)**
+   - Aceitar ou recusar consultas agendadas.
 
-### **3.1 Banco de Dados**
-- **Sql Server**
+4. **Autenticação do Usuário (Paciente)**
+   - Login usando e-mail ou CPF e senha.
 
-### **3.2 Autenticação**
-- **Keycloak/Auth0**: Soluções seguras e prontas para uso, seguindo padrões como OAuth2 e OpenID Connect.
+5. **Busca por Médicos (Paciente)**
+   - Visualização da lista de médicos disponíveis com filtros por especialidade.
 
-### **3.4 Infraestrutura e Orquestração**
-- **AWS/Azure**:
-- **Docker + Kubernetes**:
+6. **Agendamento de Consultas (Paciente)**
+   - Visualização da agenda do médico e valor da consulta, com possibilidade de agendamento e cancelamento mediante justificativa.
 
+## Diagrama da Arquitetura
 
+![Diagrama da Arquitetura](image.png)
+
+## Tecnologias Utilizadas
+
+- **Backend**: API Rest
+- **Banco de Dados**: SQL Server
+- **Autenticação**: Token de Acesso
+- **Infraestrutura**: Cloud (ex: AWS, Azure, Google Cloud)
+- **CI/CD**: Pipeline de deploy automatizado
+
+## Como Executar o Projeto
+
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/seu-usuario/healthmed.git
