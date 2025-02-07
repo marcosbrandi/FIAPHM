@@ -50,17 +50,13 @@ Utilizamos C# e .NET 8 para o backend devido à sua alta performance, suporte mu
 ### CI/CD
 Implementamos um pipeline de CI/CD para automatizar testes e implantações, qualidade e agilidade no processo de entrega.
 
-
-## Tecnologias Utilizadas
+# Tecnologias Utilizadas
 
 - **Backend**: API Rest
 - **Banco de Dados**: SQL Server
 - **Autenticação**: Token de Acesso
 - **Infraestrutura**: Docker
 - **CI/CD**: Pipeline de deploy
-
-# Tecnologias utilizadas
-- C#, .Net 8, SqlServer
 
 ## Como Executar o Projeto
 
