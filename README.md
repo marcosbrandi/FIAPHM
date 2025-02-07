@@ -38,8 +38,22 @@ Este repositório contém o MVP (Minimum Viable Product) desenvolvido pelos alun
 - **Infraestrutura**: Docker
 - **CI/CD**: Pipeline de deploy
 
+# Tecnologias utilizadas
+- C#, .Net 8, SqlServer
+
 ## Como Executar o Projeto
 
 1. **Clone o repositório**:
    ```bash
    git clone https://github.com/marcosbrandi/FIAPHM/tree/master
+
+# Link do Projeto no YouTube
+- 
+<!--# Pessoas Contribuidoras-->
+
+# Desenvolvedoras do Projeto
+
+- Gustavo Amaral (gustavo-amaral@hotmail.com)
+- Marcos Brandi Torres (marcosbrandi@hotmail.com)
+- Jhonas Nobre (jhonas_nobre@hotmail.com)
+- Júlio Valle (juliodovale2012@gmail.com)
