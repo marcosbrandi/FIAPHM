@@ -28,7 +28,8 @@ Este repositório contém o MVP (Minimum Viable Product) desenvolvido pelos alun
 
 ## Diagrama da Arquitetura
 
-![Diagrama da Arquitetura](image.png)
+![Diagrama](https://github.com/user-attachments/assets/2d024a06-ecc1-4d8b-9b0a-056bc7e2a9f6)
+
 
 ## Tecnologias Utilizadas
 
