@@ -39,7 +39,7 @@ Utilizamos uma API Rest para o backend devido à sua escalabilidade, facilidade 
 O SQL Server foi escolhido como banco de dados por sua confiabilidade, recursos avançados de segurança, essenciais para um sistema de saúde.
 
 ### Docker
-Docker foi adotado para conteinerização do sistema, garantindo consistência entre ambientes de desenvolvimento, teste e produção, além de facilitar a implantação e o escalonamento.
+Docker foi adotado para conteinerização do sistema, pela consistência entre ambientes de desenvolvimento, teste e produção, além de facilitar a implantação e o escalonamento.
 
 ### Autenticação com Tokens (JWT)
 A autenticação com tokens JWT foi escolhida por ser stateless, segura e de fácil implementação, garantindo a integridade e a confidencialidade das informações.
