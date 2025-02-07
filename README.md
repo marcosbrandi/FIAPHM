@@ -45,13 +45,10 @@ Docker foi adotado para conteinerização do sistema, garantindo consistência e
 A autenticação com tokens JWT foi escolhida por ser stateless, segura e de fácil implementação, garantindo a integridade e a confidencialidade das informações.
 
 ### C# com .NET 8
-Utilizamos C# e .NET 8 para o backend devido à sua alta performance, suporte multiplataforma. O .NET 8 é uma versão LTS, garantindo suporte de longo prazo.
-
-### Cloud (AWS/Azure/Google Cloud)
-A implantação em nuvem permite escalabilidade, alta disponibilidade e segurança avançada, além de ser custo-eficiente devido ao modelo de pagamento por uso.
+Utilizamos C# e .NET 8 para o backend devido à sua alta performance, suporte multiplataforma. O .NET 8 é uma versão LTS, com suporte de longo prazo.
 
 ### CI/CD
-Implementamos um pipeline de CI/CD para automatizar testes e implantações, garantindo qualidade e agilidade no processo de entrega.
+Implementamos um pipeline de CI/CD para automatizar testes e implantações, qualidade e agilidade no processo de entrega.
 
 
 ## Tecnologias Utilizadas
