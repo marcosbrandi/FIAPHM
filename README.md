@@ -30,6 +30,29 @@ Este repositório contém o MVP (Minimum Viable Product) desenvolvido pelos alun
 
 ![Diagrama](https://github.com/user-attachments/assets/2d024a06-ecc1-4d8b-9b0a-056bc7e2a9f6)
 
+## Escolhas Técnicas e Justificativas
+
+### API Rest
+Utilizamos uma API Rest para o backend devido à sua escalabilidade, facilidade de integração com diferentes frontends.
+
+### SQL Server
+O SQL Server foi escolhido como banco de dados por sua confiabilidade, recursos avançados de segurança, essenciais para um sistema de saúde.
+
+### Docker
+Docker foi adotado para conteinerização do sistema, garantindo consistência entre ambientes de desenvolvimento, teste e produção, além de facilitar a implantação e o escalonamento.
+
+### Autenticação com Tokens (JWT)
+A autenticação com tokens JWT foi escolhida por ser stateless, segura e de fácil implementação, garantindo a integridade e a confidencialidade das informações.
+
+### C# com .NET 8
+Utilizamos C# e .NET 8 para o backend devido à sua alta performance, suporte multiplataforma. O .NET 8 é uma versão LTS, garantindo suporte de longo prazo.
+
+### Cloud (AWS/Azure/Google Cloud)
+A implantação em nuvem permite escalabilidade, alta disponibilidade e segurança avançada, além de ser custo-eficiente devido ao modelo de pagamento por uso.
+
+### CI/CD
+Implementamos um pipeline de CI/CD para automatizar testes e implantações, garantindo qualidade e agilidade no processo de entrega.
+
 
 ## Tecnologias Utilizadas
 
